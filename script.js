@@ -103,8 +103,8 @@ let joks = [
     "गोलू: तुम इतने सीरियस क्यों हो? राजू: क्योंकि बीवी सामने बैठी है!"
 
 ]
-let len = joks.length - 1;
 
-let jno = Math.floor(Math.random() * len);
+
+let jno = Math.floor(Math.random() * joks.length);
 
 div.innerHTML = jno+1 + ": "+ joks[jno];
